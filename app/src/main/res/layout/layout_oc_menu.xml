@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/createNew"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="1dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:paddingLeft="10dip"
+        android:textSize="20sp" 
+        android:gravity="center_vertical"
+        android:text="@string/oc_menu_create_new" />
+
+    <TextView
+        android:id="@+id/orderStatus"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="1dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="1dip"
+        android:paddingLeft="10dip"
+        android:textSize="20sp" 
+        android:gravity="center_vertical"
+        android:text="@string/oc_menu_order_status" />
+
+    <TextView
+        android:id="@+id/synchronize"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="1dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="1dip"
+        android:paddingLeft="10dip"
+        android:textSize="20sp" 
+        android:gravity="center_vertical"
+        android:text="@string/oc_menu_sync" />
+
+    <TextView
+        android:id="@+id/inbox"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="1dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="1dip"
+        android:paddingLeft="10dip"
+        android:textSize="20sp" 
+        android:gravity="center_vertical"
+        android:text="@string/oc_menu_inbox" />
+
+    <TextView
+        android:id="@+id/savedOrder"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="1dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="1dip"
+        android:paddingLeft="10dip"
+        android:textSize="20sp" 
+        android:gravity="center_vertical"
+        android:text="@string/oc_menu_saved_order" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="1dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="1dip"
+        android:paddingLeft="10dip"
+        android:textSize="20sp" 
+        android:gravity="center_vertical"
+        android:text="@string/oc_menu_sent_order" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="1dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="1dip"
+        android:paddingLeft="10dip"
+        android:textSize="20sp" 
+        android:gravity="center_vertical"
+        android:text="@string/oc_menu_exit" />
+
+</LinearLayout>

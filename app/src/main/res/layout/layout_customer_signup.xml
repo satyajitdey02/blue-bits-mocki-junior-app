@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/txtFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:hint="@string/signup_first_name_label"
+        android:inputType="textPersonName"
+        android:textSize="20sp"/>
+    
+    <EditText
+        android:id="@+id/txtLastName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:hint="@string/signup_last_name_label"
+        android:inputType="textPersonName"
+        android:textSize="20sp"/>
+
+     <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:hint="@string/signup_email_label"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:hint="@string/signup_password_label"
+        android:inputType="textPassword"
+        android:textSize="20sp" />
+    
+     <EditText
+        android:id="@+id/txtConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:hint="@string/signup_confirm_password_label"
+        android:inputType="textPassword"
+        android:textSize="20sp" />
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnSignUp"
+            style="@style/AppTheme"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="4dip"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/signup_label" />
+
+        <Button
+            android:id="@+id/btnQuit"
+            style="@style/AppTheme"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="4dip"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/signup_quit_label" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_edit_customer"
+        android:icon="@drawable/ic_edit_customer"
+        android:showAsAction="ifRoom"
+        android:title="@string/oc_action_edit_customer"/>
+    <item
+        android:id="@+id/action_save_order"
+        android:icon="@drawable/ic_save_order"
+        android:showAsAction="ifRoom"
+        android:title="@string/oc_action_save_order"/>
+    <item
+        android:id="@+id/action_send_order"
+        android:icon="@drawable/ic_send_order"
+        android:showAsAction="ifRoom"
+        android:title="@string/oc_action_send_order"/>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_settings"
+        android:showAsAction="never"
+        android:title="@string/oc_action_settings"/>
+    <item
+        android:id="@+id/action_sync"
+        android:icon="@drawable/ic_sync"
+        android:showAsAction="never"
+        android:title="@string/oc_action_sync"/>
+    <item
+        android:id="@+id/action_signout"
+        android:icon="@drawable/ic_signout"
+        android:showAsAction="never"
+        android:title="@string/oc_action_signout"/>
+
+</menu>

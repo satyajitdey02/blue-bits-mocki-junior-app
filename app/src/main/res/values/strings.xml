@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="mocki_fun_message">Paint your tooth Blue!</string>
+    <string name="app_name">Mocki</string>
+    <string name="app_url">www.mocki.com</string>
+    <string name="debuggable">true</string>
+
+    <string name="zero">0</string>
+    
+    <!-- Login View Label -->
+    <string name="login_label">Login</string>
+    <string name="login_quit_label">Quit</string>
+    <string name="login_username_label">Enter User Name</string>
+    <string name="login_password_label">Enter Password</string>
+    
+    <!-- Customer Signup Form  -->
+    <string name="signup_label">Sign Up</string>
+    <string name="signup_quit_label">Quit</string>
+    <string name="signup_first_name_label">Enter First Name</string>
+    <string name="signup_last_name_label">Enter Last Name</string>
+    <string name="signup_email_label">Enter Email</string>
+    <string name="signup_password_label">Enter Password</string>
+    <string name="signup_confirm_password_label">Confirm Password</string>
+    
+    <!-- Mocki Menu Strings  -->
+    <string name="mocki_junior_menu_settings">Settings</string>
+    
+    <!--Home Screen Labels-->
+    <string name="home_screen_oc">Order Collection</string>
+    <string name="home_screen_dc">Doctors Call</string>
+    <string name="home_screen_fs">Field Survey</string>
+    <string name="home_screen_sync">Synchronize</string>
+    <string name="home_screen_ff_report">FF Report</string>
+    <string name="home_screen_settings">Settings</string>
+    
+    <!--OC Screen Labels -->
+    <string name="oc_menu_create_new">Create New</string>
+    <string name="oc_menu_order_status">Order Status</string>
+    <string name="oc_menu_sync">Synchronize</string>
+    <string name="oc_menu_inbox">Inbox</string>
+    <string name="oc_menu_saved_order">Saved Order</string>
+    <string name="oc_menu_sent_order">Sent Order</string>
+    <string name="oc_menu_exit">Exit</string>
+    
+    <string name="oc_action_edit_customer">Edit Customer</string>
+    <string name="oc_action_datagrid">Datagrid</string>
+    <string name="oc_action_save_order">Save Order</string>
+    <string name="oc_action_send_order">Send Order</string>
+    <string name="oc_action_settings">Settings</string>
+    <string name="oc_action_sync">Synchronize</string>
+    <string name="oc_action_signout">Signout</string>
+    
+    <string name="oc_enter_customer">Enter CustomerID</string>
+    <string name="oc_default_customer">satyajit02@gmail.com</string>
+    <string name="oc_select_store">Select Store</string>
+    <string name="oc_session_prompt">Session</string>
+    <string name="oc_store_prompt">Store</string>
+    <string name="oc_delivery_date">Delivery Date</string>
+    <string name="oc_remarks">Remarks</string>
+</resources>

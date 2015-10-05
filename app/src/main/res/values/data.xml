@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sessions">
+        <item>Morning(Before 12:00PM)</item>
+        <item>Evening(After 12:00PM)</item>
+    </string-array>
+
+</resources>

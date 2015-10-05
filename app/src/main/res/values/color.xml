@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application Theme Colors -->
+    <!-- <color name="app_theme_base_color">#AB0016</color> -->
+    <color name="app_theme_base_color">#CC0000</color>
+    <color name="app_theme_base_text_color">#000000</color>
+
+    <!-- Custom ActionBar Colors -->
+    <color name="action_bar_background_color">@color/app_theme_base_color</color>
+    <color name="action_bar_text_color">@color/app_theme_base_text_color</color>
+
+    <!-- Custom Tab Colors -->
+    <color name="custom_tab_background_color">#242424</color>
+    <color name="custom_tab_text_color">#DBDBDB</color>
+    <color name="custom_tab_selected_color">#3B5998</color>
+    <color name="custom_tab_unselected_focused_color">#DBDBDB</color>
+    <color name="custom_tab_selected_focused_color">#DBDBDB</color>
+    <color name="custom_tab_unselected_pressed_color">@color/custom_tab_selected_color</color>
+    <color name="custom_tab_selected_pressed_color">@color/custom_tab_selected_color</color>
+
+    <!-- Pressed View Colors -->
+    <color name="pressed_view_background_color">#000000</color>
+    
+    <!--Basic UI Widgets background-->
+    <color name="basic_widget_background_color">#FFFFFF</color>
+    
+    <!-- OC Menu Items -->
+    <color name="oc_menu_text_color">#FFFFFF</color>
+
+</resources>
